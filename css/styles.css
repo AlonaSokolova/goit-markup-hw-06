@@ -628,6 +628,10 @@
         padding-left: 16px;
    }
 
+   .modal-form-field-footer {
+         margin-right: 24px;
+   }
+
    .modal-form-submit-footer {
         min-width: 165px;
         height: 40px;
