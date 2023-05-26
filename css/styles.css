@@ -1056,7 +1056,7 @@
      }
 
      .modal-form-chek-desc-pr-icon {
-        
+
      }
 
      .modal-form-fake {
@@ -1070,6 +1070,10 @@
         line-height: 1.17;
         letter-spacing: 0.04em;
         color: #8E8F99;
+    }
+
+    .modal-form-field-com {
+        margin-bottom: 16px;
     }
      .modal-form-submit {
         align-self: center;
