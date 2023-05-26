@@ -1023,25 +1023,14 @@
         margin-bottom: 24px;
      }
 
-     /*.modal-form-chek-desc::before {
-        display: block;
-        width: 18px;
-        height: 18px;
-        border: 1px solid rgba(46, 47, 66, 0.4);
-        content: '';
-        cursor: pointer;
-        border-radius: 4px;
-        margin-right: 10px;
-        margin-bottom: 24px;
-     }*/
 
-     /*.modal-form-check:check + modal-form-chek-desc-pr::before {
+     .modal-form-check:check + modal-form-chek-desc-pr::before {
         background-color: #404bbf;
         border: none;
         fill: #ffffff;
         border-color: #404bbf;
         
-     }*/
+     }
      .modal-form-chek-desc {
        
         width: 100%;
@@ -1064,6 +1053,7 @@
         border-radius: 2px;
         padding: 4px 3px;
         margin-right: 8px;
+        
         
      }
 
@@ -1123,6 +1113,13 @@
         clip-path: inset(50%);
         margin: -1px;
   }
+
+  /*.modal-form-check:checked + .modal-form-check-desc > .modal-form-chek-desc-pr{
+    background-color: #404bbf;
+    border: none;
+    fill: #ffffff;
+    border-color: #404bbf;
+}*/
  
 
 
