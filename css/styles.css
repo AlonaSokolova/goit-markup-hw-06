@@ -1018,7 +1018,12 @@
         outline: none;
         border-color: #4D5AE5;
      } 
-     .modal-form-chek-desc::before {
+
+     .modal-form-fake {
+        margin-bottom: 24px;
+     }
+
+     /*.modal-form-chek-desc::before {
         display: block;
         width: 18px;
         height: 18px;
@@ -1028,33 +1033,37 @@
         border-radius: 4px;
         margin-right: 10px;
         margin-bottom: 24px;
-     }
+     }*/
 
-     .modal-form-check:check + modal-form-chek-desc-pr::before {
+     /*.modal-form-check:check + modal-form-chek-desc-pr::before {
         background-color: #404bbf;
         border: none;
         fill: #ffffff;
         border-color: #404bbf;
         
-     }
+     }*/
      .modal-form-chek-desc {
-        display: flex;
-        align-items: center;
+       
+        width: 100%;
+        height: 16px;
+        font-weight: 400;
         font-size: 12px;
         line-height: 1.17;
         letter-spacing: 0.04em;
-        color: #8e8f99;
+        color: #8E8F99;
      }
 
      .modal-form-chek-desc-pr {
-        width: 16px;
-        height: 16px;
-        border: 1px solid #2e2f42;
-        border-radius: 2px;
         display: inline-flex;
         align-items: center;
         justify-content: center;
         fill: transparent;
+        width: 16px;
+        height: 16px;
+        border: 1px solid #2e2f42;
+        border-radius: 2px;
+        padding: 4px 3px;
+        margin-right: 8px;
         
      }
 
@@ -1065,7 +1074,7 @@
      }
 
      .modal-form-chek-desc-pr-icon {
-
+        fill: #f4f4fd;
      }
 
      .modal-form-fake {
@@ -1073,12 +1082,8 @@
      }
 
      .modal-form-check {
-        display: flex;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 1.17;
-        letter-spacing: 0.04em;
-        color: #8E8F99;
+        position: absolute;
+        appearance: none;
     }
 
     .modal-form-field-com {
