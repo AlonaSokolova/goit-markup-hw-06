@@ -1030,8 +1030,11 @@
         margin-bottom: 24px;
      }
 
-     .modal-form-check:checked + .modal-form-chek-desc::before {
-        background-color: #404BBF;
+     .modal-form-check:check + modal-form-chek-desc-pr::before {
+        background-color: #404bbf;
+        border: none;
+        fill: #ffffff;
+        border-color: #404bbf;
         
      }
      .modal-form-chek-desc {
@@ -1053,6 +1056,10 @@
         justify-content: center;
         fill: transparent;
         
+     }
+
+     .link-checkbox {
+        color: #4d5ae5;
      }
 
      .modal-form-chek-desc-pr-icon {
