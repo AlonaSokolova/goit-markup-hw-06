@@ -1070,9 +1070,9 @@
         
      }
 
-     .modal-form-check:checked + .modal-form-check-desc .modal-form-chek-desc-pr{
-        background-color: #404bbf;
+     .modal-form-check:checked + .modal-form-check-desc > .modal-form-chek-desc-pr {
         border: none;
+        background-color: #404bbf;
         fill: #ffffff;
         border-color: #404bbf;
         
