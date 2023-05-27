@@ -1070,7 +1070,7 @@
         
      }
 
-     .modal-form-check:checked + .modal-form-check-desc > .modal-form-chek-desc-pr{
+     .modal-form-check:checked + .modal-form-check-desc .modal-form-chek-desc-pr{
         background-color: #404bbf;
         border: none;
         fill: #ffffff;
