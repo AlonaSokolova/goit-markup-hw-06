@@ -1025,6 +1025,11 @@
 
 
      .modal-form-check {
+
+        width: 16px;
+        height: 16px;
+        visibility: hidden;
+
         position: absolute;
         appearance: none;
      }
@@ -1044,8 +1049,8 @@
      }*/
      .modal-form-chek-desc {
        
-        width: 100%;
-        height: 16px;
+        /*width: 100%;
+        height: 16px;*/
         font-weight: 400;
         font-size: 12px;
         line-height: 1.17;
@@ -1053,9 +1058,9 @@
         color: #8E8F99;
      }
 
-     .modal-form-chek-desc-pr-icon {
+     /*.modal-form-chek-desc-pr-icon {
         fill: #f4f4fd;
-     }
+     }*/
      .modal-form-chek-desc-pr {
         display: inline-flex;
         align-items: center;
@@ -1070,7 +1075,7 @@
         
      }
 
-     .modal-form-check:checked + .modal-form-check-desc > .modal-form-chek-desc-pr {
+     .modal-form-check:checked + .modal-form-check-desc .modal-form-chek-desc-pr {
         border: none;
         background-color: #404bbf;
         fill: #ffffff;
