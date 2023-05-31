@@ -1011,7 +1011,7 @@
      }
      .modal-form-message::placeholder {
         font-size: 14px;
-        text-transform: uppercase;
+        /*text-transform: uppercase;*/
 
      }
      .modal-form-message:focus {
